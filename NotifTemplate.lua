@@ -1,6 +1,4 @@
-local module = {}
-
-module.createTemplate = function()
+return function()
     --notif template esh
 -- Instances:
 
@@ -85,5 +83,3 @@ UIGradient.Parent = Bar
 
 return Template
 end 
-
-return module
