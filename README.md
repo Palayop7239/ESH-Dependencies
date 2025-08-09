@@ -1,2 +1,2 @@
 # ESH-Dependencies
-"Easy Save Helper"
+name is exactly what this repo is
