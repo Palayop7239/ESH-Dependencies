@@ -83,4 +83,4 @@ UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 1.
 UIGradient.Parent = Bar
 print("gradient properties")
 return Template
-end 
+end()
