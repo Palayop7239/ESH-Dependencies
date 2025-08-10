@@ -11,7 +11,7 @@ local Title = Instance.new("TextLabel")
 local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 local Bar = Instance.new("Frame")
 local UIGradient = Instance.new("UIGradient")
-
+print("created instances")
 --Properties:
 
 Template.Name = "Template"
@@ -22,7 +22,7 @@ Template.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Template.BorderSizePixel = 0
 Template.Position = UDim2.new(0, 0, 0.872339427, 0)
 Template.Size = UDim2.new(0.910979211, 0, 0.126851857, 0)
-
+print("template properties")
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = Template
 MainFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
@@ -30,7 +30,7 @@ MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MainFrame.BorderSizePixel = 0
 MainFrame.ClipsDescendants = true
 MainFrame.Position = UDim2.new(2, 0, 0, 0)
-
+print("mainframe properties")
 UICorner.Parent = MainFrame
 
 thing.Name = "thing"
@@ -64,7 +64,7 @@ Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 14.000
 Title.TextWrapped = true
-
+print("title properties")
 UITextSizeConstraint_2.Parent = Title
 UITextSizeConstraint_2.MaxTextSize = 98
 
@@ -77,9 +77,10 @@ Bar.BorderSizePixel = 0
 Bar.Position = UDim2.new(0.5, 0, 0.449999988, 0)
 Bar.Size = UDim2.new(1, 0, 0.00999999978, 0)
 Bar.ZIndex = 2
+print("gradient bar properties")
 
 UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 1.00), NumberSequenceKeypoint.new(0.50, 0.00), NumberSequenceKeypoint.new(1.00, 1.00)}
 UIGradient.Parent = Bar
-
+print("gradient properties")
 return Template
 end 
